@@ -1,1 +1,8 @@
-/* CSS-file with custom styles - don't delete this comment */
+
+.coming-soon{
+    background-color: #fff  ; 
+    font-size:10.5px;
+    color:#f60; 
+    padding:4px;
+    border-radius:9px
+}
