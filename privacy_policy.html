@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="A platform that connects logistics companies(individual and cooperate) with users. It allows users to choose a pickup location and destination location, then the system gives a list of available logistic company’s profile that can service the request including their rate. "/>
+    <meta name="keywords" content="Logistics, Bike Delivery, Car Delivery, Drone Delivery, Flight Drops, Truck Delivery, Bicycle Delivery, END-TO-END LOGISTICS,"/>
+    <meta name="author" content="MyTransporter"/>
+    <link rel="icon" type="image/x-icon" href="images/fav.png">
+    <title>MyTransporter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" id="packed-css" href="css/_packed.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fontello-style-css" href="css/fontello.css" type="text/css" media="all">
+    <link rel="stylesheet" id="main-style-css" href="css/main_style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-style-css" href="css/custom-style.css" type="text/css" media="all">
+    <style id="custom-style-inline-css" type="text/css"></style>
+    <link rel="stylesheet" id="responsive-style-css" href="css/responsive.css" type="text/css" media="all">
+    <!--<link rel="stylesheet" id="customizer-style-css" href="custom_tools/css/front.customizer.css" type="text/css" media="all">-->
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "00d7367422ebe57355af6b2bd3ef89d2fb44d456dfc4e20af32c3a85b2edb8746a4252b23aabcc73d4ee976c7af01573", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+</head>
+
+<body class="page body_style_wide body_filled article_style_stretch top_panel_opacity_transparent top_panel_show top_panel_above top_panel_over user_menu_hide sidebar_hide top_image_show"> 
+
+    <div class="body_wrap">
+
+        <div class="page_wrap">
+
+            <div class="top_panel_fixed_wrap"></div>
+            <header class="top_panel_wrap">
+                <div class="menu_main_wrap logo_left mobileHide">
+                    <div class="container" >
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/main_logo.png" class="logo_main" alt="" width="100% !important" >
+                                <span class="logo_info"></span>
+                            </a>
+                        </div>
+                        <div class="menu_main"  >
+                            <nav class="menu_main_nav_area">
+                                <ul id="menu_main" class="menu_main_nav">
+                                    <li class="menu-item">
+                                        <a href="about-us.html">About us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="sf-with-ul">Products</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="sdk.html">SDK</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="delivery_link.html">Delivery Link</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="store.html">Partner's Store</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="partner_form.html" class="sf-with-ul">Partner with us</a>
+                                  
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="https://app.mytransporter.io/login" class="sf-with-ul" style="color:#3e2357; border: 3px solid #ff6600; padding-left: 2em; padding-right: 2em;">Login</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://app.mytransporter.io" class="sc_button  sc_button_bg_light">
+                                            <span style="padding-left: 4%; padding-right: 4%;">Signup ooo  </span>
+                                        </a> 
+                                    </li>
+                                   
+                                   
+                                </ul>
+                            </nav>
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+                <nav class="navbar navbar-inverse mobileShow" >
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./images/main_logo.png" width="10%"/></a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="/">Home</a></li>
+                          <li><a href="about-us.html">About us </a></li>
+                          <li  class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>  <a href="sdk.html">SDK</a></li>
+                                <li><a href="delivery_link.html"> Delivery Link</a></li>
+                                <li><a href="store.html">Partner's Store</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="partner_form.html">Partner with us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="https://app.mytransporter.io"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                          <li><a href="https://app.mytransporter.io/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>            
+
+            <section class="top_panel_image top_panel_bg4">
+                <div class="top_panel_image_hover"></div>
+                <div class="top_panel_image_header">
+                    <h1 class="top_panel_image_title entry-title">PRIVACY POLICY</h1>
+                    <div class="breadcrumbs">
+                        <span class="breadcrumbs_item_first">You Are Here:</span>
+                        <a class="breadcrumbs_item home" href="index.html">Home</a>
+                        <span class="breadcrumbs_delimiter"></span>
+                        <span class="breadcrumbs_item current">Privacy Policy</span>
+                    </div>
+                </div>
+            </section>
+            <div class="page_content container">
+
+                <section class="fullwidth_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="container">
+                                    <div class="sc_contact_form sc_contact_form_topic">
+                                        <div class="sc_contact_info">
+                                            <h4 >Privacy Policy </h4>
+                                            <p style="color: black;">At MyTransporter, accessible from https://mytransporter.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by MyTransporter and how we use it</p> 
+                                            <p style="color: black;">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us. <br>
+                                            This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in MyTransporter.
+                                            <br>   <h4>Consent</h4>
+                                           <p style="color: black;">By using our website, you hereby consent to our Privacy Policy and agree to its terms. </p>
+                                           <h4>information we collect</h4>
+                                           <p style="color: black;">The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+                                               If you contact us directly, we may receive additional information about you such as your name, email address, phone number, the contents of the message and/or attachments you may send us, and any other information you may choose to provide. <br>
+                                               When you register for an Account, we may ask for your contact information, including items such as name, company name, address, email address, and telephone number.<br>
+                                           </p>
+                                           <h4>How we use your information</h4>
+                                           <p style="color: black;">We use the information we collect in various ways, including to:<br>
+                                            <ul style="color: black;">
+                                                <li>Provide, operate, and maintain our website</li>
+                                                <li>Improve, personalize, and expand our website</li>
+                                                <li>Understand and analyze how you use our website</li>
+                                                <li>Develop new products, services, features, and functionality</li>
+                                                <li>Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes</li>
+                                                <li>Send you emails</li>
+                                                <li>Find and prevent fraud</li>
+                                                </ul>
+                                        </p>
+
+                                        <h4 >Log Files</h4>
+                                        <p style="color: black;">MyTransporter follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this and a part of hosting services' analytics. The information collected by log files include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of clicks. These are not linked to any information that is personally identifiable.
+                                            The purpose of the information is for analyzing trends, administering the site, tracking users' movement on the website, and gathering demographic information.
+                                            </p>
+
+                                            <h4 >Cookies and Web Beacons</h4>
+                                            <p style="color: black;">Like any other website, MyTransporter uses 'cookies'. These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+                                            
+                                            <h4 >Advertising Partners Privacy Policies</h4>
+                                            <p style="color: black;">You may consult this list to find the Privacy Policy for each of the advertising partners of MyTransporter. <br>
+                                            Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and 
+                                            links that appear on MyTransporter, which are sent directly to users' browser. They automatically receive your IP address when this occurs.
+                                             These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on websites that you visit. </br>
+                                            Note that MyTransporter has no access to or control over these cookies that are used by third-party advertisers.
+                                        </p>
+                                            
+                                        <h4 >Third Party Privacy Policies</h4>
+                                        <p style="color: black;">MyTransporter's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. <br>
+                                        You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.</p>
+
+                                        <h4 >CCPA Privacy Rights (Do Not Sell My Personal Information)</h4>
+                                        <p style="color: black;">Under the CCPA, among other rights, California consumers have the right to:
+                                        Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</br>
+                                        Request that a business delete any personal data about the consumer that a business has collected.</br>
+                                        Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</br>
+                                        If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</br>
+
+                                        <h4 >GDPR Data Protection Rights</h4>
+                                            <p style="color: black;">We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:<br>
+                                            The right to access – You have the right to request copies of your personal data. We may charge you a small fee for this service.</br>
+                                            The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</br>
+                                            The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</br>
+                                            The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</br>
+                                            The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</br>
+                                            The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</br>
+                                            If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.</br>
+
+                                            <h4>Children's Information</h4>
+                                            <p style="color: black;">Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</br>
+                                            MyTransporter does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.</p>
+
+                                        </div>
+                                      
+                                         </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>           
+            </div>
+
+            <section class="fullwidth_section no_padding_top_container " style="background-color:#473b52">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="sc_section">
+                                <div class="sc_section_overlay">
+                                    <div class="sc_section_content">
+                                        <div class="sc_content container">
+                                            <div class="sc_contact_form sc_contact_form_standard">
+                                                <div class="sc_contact_form_left">
+                                                    <div class="sc_contact_info">
+                                                        <!-- <h6 class="sc_contact_form_subtitle">My<br>Transporter</h6> -->
+                                                        <!-- <h2 class="sc_contact_form_title">contact us</h2> -->
+                                                        <img class="mobileHide" src="./images/main_logo_white.png"/>
+                                                        <img class="mobileShow" src="./images/main_logo_white.png" width="70%"/>
+                                                        <div class="sc_contact_form_address_wrap">
+                                                            <div class="sc_contact_form_address_field">
+                                                                <span class="sc_contact_form_address_data" style="color: white;">
+                                                                    8 Benson Akerele Surulere <br>  Lagos.
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc_contact_info_bottom">
+                                                        <div class="sc_contact_form_address_wrap">
+                                                            <div class="sc_contact_form_address_field" style="color: white;">
+                                                                <span class="sc_contact_form_address_label">tel.: </span>
+                                                                <span class="sc_contact_form_address_data"> +234 813 0770 663</span>
+                                                            </div>
+                                                            <div class="sc_contact_form_address_field" style="color: white;">
+                                                                <span class="sc_contact_form_address_label">e-mail: </span>
+                                                                <span class="sc_contact_form_address_data">info@mytransporter.io</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sc_socials sc_socials_size_small  color_icons">
+                                                            <div class="sc_socials_item">
+                                                                <a href="https://twitter.com/mytransporter1" target="_blank" class="social_icons social_twitter icons">
+                                                                    <span class="icon-twitter"></span>
+                                                                    <span class="sc_socials_hover icon-twitter"></span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="sc_socials_item">
+                                                                <a href="https://www.facebook.com/MyTransporterng/" target="_blank" class="social_icons social_facebook icons">
+                                                                    <span class="icon-facebook"></span>
+                                                                    <span class="sc_socials_hover icon-facebook"></span>
+                                                                </a>
+                                                            </div>
+                                                           <a href="https://www.instagram.com/mytransporterng/"> <img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955027.png?token=exp=1640269045~hmac=3e627a784ec60dcd5f398ad3b3da6327"/></a>
+                                                           
+                                                         
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="" style="margin-top: 30px; ">
+                                                    <div class="col-lg-3">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Solutions</b></h5>
+                                                        <p ><a href="road_delivery.html" style="color: white;">Bike Delivery</a></p> 
+                                                        <p ><a href="road_delivery.html" style="color: white;">Bicycle Delivery</a></p> 
+                                                        <p ><a href="road_delivery.html" style="color: white;">Truck Delivery & Van </a></p> 
+                                                        <p ><a href="drone_delivery.html" style="color: white;">Drones Delivery</a></p> 
+                                                        <p ><a href="flight_pg.html" style="color: white;">Flight Drops</a></p> 
+                                                    </div>
+                                                    <div class="col-lg-2">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Company</b></h5>
+                                                        <p ><a href="about-us.html" style="color: white;">About Us</a></p> 
+                                                        <p ><a href="contacts.html" style="color: white;">Contact Us</a></p> 
+                                                        <p ><a href="partner_form.html" style="color: white;">Partners</a></p>
+                                                        <!-- <p ><a href="" style="color: white;">Terms & Condition</a></p>  -->
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-2">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Get the App Now</b></h5>
+                                                        <span class="mobileHide">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.mytransporter.customermobile"><img src="./images/playstore1.png" /></a>
+                                                        <a href="https://apps.apple.com/app/id1588317914"><img src="./images/appstore.png" /></a>
+                                                        </span>
+                                                        <span class="mobileShow">
+                                                            <a href="https://play.google.com/store/apps/details?id=com.mytransporter.customermobile"><img src="./images/playstore1.png" width="45%"/></a>
+                                                            <a href="https://apps.apple.com/app/id1588317914"><img src="./images/appstore.png" width="45%"/></a>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+
+        </div>        
+
+        <section class="copyright_wrap fullwidth_section" style="background-color: #342c3b;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="container">
+                            <p>MyTransporter © 2021 All Rights Reserved. 
+                                <a href="privacy_policy.html">Privacy Policy</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                         
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+
+    <!--<script type="text/javascript" src="custom_tools/js/front.customizer.js"></script>
+    <script type="text/javascript" src="custom_tools/js/skin.customizer.js"></script>-->
+    
+    <script type="text/javascript" src="js/_packed.js"></script>
+    <script type="text/javascript" src="js/shortcodes.min.js"></script>
+    <script type="text/javascript" src="js/_main.js"></script>
+
+</body>
+</html>

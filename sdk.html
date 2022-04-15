@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="A platform that connects logistics companies(individual and cooperate) with users. It allows users to choose a pickup location and destination location, then the system gives a list of available logistic company’s profile that can service the request including their rate. "/>
+    <meta name="keywords" content="Logistics, Bike Delivery, Car Delivery, Drone Delivery, Flight Drops, Truck Delivery, Bicycle Delivery, END-TO-END LOGISTICS,"/>
+    <meta name="author" content="MyTransporter"/>
+    <link rel="icon" type="image/x-icon" href="images/fav.png">
+    <title>MyTransporter</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" id="timeline-css-css" href="css/timeline.css" type="text/css" media="all">
+    <link rel="stylesheet" id="packed-css" href="css/_packed.css" type="text/css" media="all">
+    <link rel="stylesheet" id="rs-settings-css" href="js/vendor/revslider/css/settings.css" type="text/css" media="all">
+    <link rel="stylesheet" id="fontello-style-css" href="css/fontello.css" type="text/css" media="all">
+    <link rel="stylesheet" id="main-style-css" href="css/main_style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="custom-style-css" href="css/custom-style.css" type="text/css" media="all">
+    <style id="custom-style-inline-css" type="text/css"></style>
+    <link rel="stylesheet" id="responsive-style-css" href="css/responsive.css" type="text/css" media="all">
+    <script type="text/javascript" id="zsiqchat">var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode: "00d7367422ebe57355af6b2bd3ef89d2fb44d456dfc4e20af32c3a85b2edb8746a4252b23aabcc73d4ee976c7af01573", values:{},ready:function(){}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+</head>
+
+<body class="home page body_style_fullscreen body_filled article_style_stretch top_panel_opacity_transparent top_panel_over user_menu_hide sidebar_hide">
+
+    <div class="body_wrap">
+
+        <div class="page_wrap">
+
+            <div class="top_panel_fixed_wrap"></div>
+            <header class="top_panel_wrap">
+                <div class="menu_main_wrap logo_left mobileHide">
+                    <div class="container" >
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="images/main_logo.png" class="logo_main" alt="" width="100% !important" >
+                                <span class="logo_info"></span>
+                            </a>
+                        </div>
+                        <div class="menu_main"  >
+                            <nav class="menu_main_nav_area">
+                                <ul id="menu_main" class="menu_main_nav">
+                                    <li class="menu-item">
+                                        <a href="about-us.html">About us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a class="sf-with-ul">Products</a>
+                                        <ul class="sub-menu">
+                                            <li class="menu-item">
+                                                <a href="sdk.html">SDK</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="delivery_link.html">Delivery Link</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a href="store.html">Partner's Store</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="partner_form.html" class="sf-with-ul">Partner with us</a>
+                                  
+                                    </li>
+                                    <li class="menu-item menu-item-has-children">
+                                        <a href="https://app.mytransporter.io/login" class="sf-with-ul" style="color:#3e2357; border: 3px solid #ff6600; padding-left: 2em; padding-right: 2em;">Login</a>
+                                    </li>
+                                    <li class="menu-item">
+                                        <a href="https://app.mytransporter.io" class="sc_button  sc_button_bg_light">
+                                            <span style="padding-left: 4%; padding-right: 4%;">Signup ooo  </span>
+                                        </a> 
+                                    </li>
+                                   
+                                   
+                                </ul>
+                            </nav>
+                          
+                        </div>
+                    </div>
+                </div>
+
+
+                <nav class="navbar navbar-inverse mobileShow" >
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                          <span class="icon-bar" style="background-color: #473b52;"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img src="./images/main_logo.png" width="10%"/></a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="/">Home</a></li>
+                          <li><a href="about-us.html">About us </a></li>
+                          <li  class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#">Products <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>  <a href="sdk.html">SDK</a></li>
+                                <li><a href="delivery_link.html"> Delivery Link</a></li>
+                                <li><a href="store.html">Partner's Store</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="partner_form.html">Partner with us</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="https://app.mytransporter.io"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                          <li><a href="https://app.mytransporter.io/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </header>           
+
+
+            <section class="top_panel_image top_panel_bg3">
+                <div class="top_panel_image_hover"></div>
+                <div class="top_panel_image_header">
+                    <h1 class="top_panel_image_title entry-title">SDK (WEB and MOBILE)</h1>
+                    <div class="breadcrumbs">
+                        <span class="breadcrumbs_item_first">You Are Here:</span>
+                            <a class="breadcrumbs_item home" href="index.html">Home</a>
+                        <span class="breadcrumbs_delimiter"></span>
+                        <span class="breadcrumbs_item current">SDK (WEB and MOBILE)</span>                     
+                    </div>
+                </div>
+            </section>
+
+            <div class="page_content">
+
+                <section class="fullwidth_section light_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_content container">
+                                        <!-- <h2 class="sc_title sc_title_regular sc_align_center">Flight Drops</h2> -->
+                                        <div class="sc_columns sc_columns_count_2">
+                                            <br><br>
+                                            <div class="col-sm-6 sc_column_item">
+                                                <figure class="sc_image sc_image_shape_square">
+                                                    <img src="images/truck_bg.png" alt="">
+                                                </figure>
+                                                
+                                            </div>
+                                            <div class="col-sm-6 sc_column_item">
+                                                <div class="sc_section">
+                                                     <h3 class="sc_title sc_title_regular " style="margin-top: -7px;">SDK (WEB and MOBILE)</h3>
+                                                    <p style="text-align: justify;">
+                                                        This is a unique link that merchant can share with all their users, when the link is clicked/opened, this display a profile page for the merchant either on the mobile app(deep linking) or on the web. <br><br>From the profile, the user can place an order to the merchant, rate the merchant, comment on the merchant’s profile. 
+
+                                                    </p>
+                                                    <ul class="sc_list sc_list_style_iconed">
+                                                        <!-- <li class="sc_list_item">
+                                                            <span class="sc_list_icon icon-dot"></span>
+                                                            Booking a helicopter ride is only a tap away on our app - select your destination on any of our scheduled flights, book your seats and you're on your way.
+                                                        </li>
+                                                        <li class="sc_list_item">
+                                                            <span class="sc_list_icon icon-dot"></span>
+                                                            If you have a different schedule, you can charter a helicopter to suit your needs.
+                                                        
+                                                          
+                                                        </li> -->
+                                                        <!-- <li class="sc_list_item">
+                                                            <span class="sc_list_icon icon-dot"></span>
+                                                            With MyTransporter Flight Drops, we give you the freedom to do more, accomplish more and move more.
+                                                        </li> -->
+                                                       
+                                                    </ul>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row"> 
+                            <div class="col-sm-12">
+                                <div class="sc_section">
+                                    <div class="sc_content container">
+                                        <!-- <h2 class="sc_title sc_title_regular sc_align_center">more services</h2> -->
+                                        <div class="row  sc_columns columns_nofluid wpb_text_column">
+                                            <h3 class="sc_title sc_title_regular sc_align_center">Five(5) Easy Steps</h3>
+                                   
+                                            <div class="col-sm-4 sc_column_item">
+                                                <span class="sc_icon icon-ok sc_icon_shape_square alignleft"></span>
+                                                <div class="sc_section column-auto">
+                                                    <h5 class="sc_title sc_title_regular">User initiates request</h5>
+                                                    <p>User clicks on the “Deliver with MyTransporter” button.</p>
+                                                    <!-- <a href="https://play.google.com/store/apps/details?id=com.mytransporter.customermobile" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                        Download on Playstore
+                                                        <span class="sc_button_iconed icon-right"></span> 
+                                                    </a> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 sc_column_item">
+                                                <span class="sc_icon icon-ok sc_icon_shape_square alignleft"></span>
+                                                <div class="sc_section column-auto">
+                                                    <h5 class="sc_title sc_title_regular">Select delivery mode</h5>
+                                                    <p>The user is prompted to choose the delivery mode</p>
+                                                    <!-- <a href="flight_pg.html" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                       Get Started
+                                                        <span class="sc_button_iconed icon-right"></span> 
+                                                    </a> -->
+                                                </div>
+                                                
+                                            </div> 
+                                            <div class="col-sm-4 sc_column_item">
+                                                <span class="sc_icon icon-ok sc_icon_shape_square alignleft"></span>
+                                                <div class="sc_section column-auto">
+                                                    <h5 class="sc_title sc_title_regular">Select preferred partner</h5>
+                                                    <p>User sees all available partners and select preferred partners from the list.</p>
+                                                    <!-- <a href="https://apps.apple.com/app/id1588317914" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                        Download on Appstore
+                                                        <span class="sc_button_iconed icon-right"></span> 
+                                                    </a> -->
+                                                </div>
+                                            </div> <br><br>
+
+                                            <div class="col-sm-4 sc_column_item">
+                                                <span class="sc_icon icon-ok sc_icon_shape_square alignleft"></span>
+                                                <div class="sc_section column-auto">
+                                                    <h5 class="sc_title sc_title_regular">Confirm order details</h5>
+                                                    <p>An order review page is displayed to view the order total amount and other information
+                                                    </p>
+                                                    <!-- <a href="flight_pg.html" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                       Get Started
+                                                        <span class="sc_button_iconed icon-right"></span> 
+                                                    </a> -->
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="col-sm-4 sc_column_item">
+                                                <span class="sc_icon icon-ok sc_icon_shape_square alignleft"></span>
+                                                <div class="sc_section column-auto">
+                                                    <h5 class="sc_title sc_title_regular">Make payment</h5>
+                                                    <p>Make payment using any of the channels listed while delivery is approved</p>
+                                                    <!-- <a href="https://apps.apple.com/app/id1588317914" class="sc_button sc_button_square sc_button_bg_underline  sc_button_iconed">
+                                                        Download on Appstore
+                                                        <span class="sc_button_iconed icon-right"></span> 
+                                                    </a> -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="sc_line sc_line_style_solid"></div>
+                                    </div>
+                                    
+                                </div>
+            
+                            </div>
+                     
+
+
+                
+            </div>
+                    </div>
+                </section>
+
+                <!-- <section class="fullwidth_section light_section">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="sc_section container">
+                                        <div class="col-sm-6 sc_column_item">
+                                            <figure class="sc_image  alignleft sc_image_shape_square">
+                                                <img src="images/slider/bike_del.png" alt="">
+                                            </figure>
+                                            <div class="sc_section column-auto">
+                                                <h4 class="sc_title sc_title_regular">Bike Delivery</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo lacus, scelerisque eget massa sit amet, mollis ultrices lacus.</p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-sm-6 sc_column_item">
+                                            <figure class="sc_image  alignleft sc_image_shape_square">
+                                                <img src="images/slider/bicycle_del.png" alt="">
+                                            </figure>
+                                            <div class="sc_section column-auto">
+                                                <h4 class="sc_title sc_title_regular">Bicycle Delivery</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo lacus, scelerisque eget massa sit amet, mollis ultrices lacus.</p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-sm-6 sc_column_item">
+                                            <figure class="sc_image  alignleft sc_image_shape_square">
+                                                <img src="images/slider/truck_del.png" alt="">
+                                            </figure>
+                                            <div class="sc_section column-auto">
+                                                <h4 class="sc_title sc_title_regular">Truck & Van </h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo lacus, scelerisque eget massa sit amet, mollis ultrices lacus.</p>
+                                            </div> 
+                                        </div>
+                                        <div class="col-sm-6 sc_column_item">
+                                            <figure class="sc_image  alignleft sc_image_shape_square">
+                                                <img src="images/slider/car_del.png" alt="">
+                                            </figure>
+                                            <div class="sc_section column-auto">
+                                                <h4 class="sc_title sc_title_regular">Car Delivery</h4>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo lacus, scelerisque eget massa sit amet, mollis ultrices lacus.</p>
+                                            </div> 
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>   -->
+
+                
+            </div>
+           
+            <section class="fullwidth_section no_padding_top_container " style="background-color:#473b52">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="sc_section">
+                                <div class="sc_section_overlay">
+                                    <div class="sc_section_content">
+                                        <div class="sc_content container">
+                                            <div class="sc_contact_form sc_contact_form_standard">
+                                                <div class="sc_contact_form_left">
+                                                    <div class="sc_contact_info">
+                                                        <!-- <h6 class="sc_contact_form_subtitle">My<br>Transporter</h6> -->
+                                                        <!-- <h2 class="sc_contact_form_title">contact us</h2> -->
+                                                        <img class="mobileHide" src="./images/main_logo_white.png"/>
+                                                        <img class="mobileShow" src="./images/main_logo_white.png" width="70%"/>
+                                                        <div class="sc_contact_form_address_wrap">
+                                                            <div class="sc_contact_form_address_field">
+                                                                <span class="sc_contact_form_address_data" style="color: white;">
+                                                                    8 Benson Akerele Surulere <br>  Lagos.
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="sc_contact_info_bottom">
+                                                        <div class="sc_contact_form_address_wrap">
+                                                            <div class="sc_contact_form_address_field" style="color: white;">
+                                                                <span class="sc_contact_form_address_label">tel.: </span>
+                                                                <span class="sc_contact_form_address_data"> +234 813 0770 663</span>
+                                                            </div>
+                                                            <div class="sc_contact_form_address_field" style="color: white;">
+                                                                <span class="sc_contact_form_address_label">e-mail: </span>
+                                                                <span class="sc_contact_form_address_data">info@mytransporter.io</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="sc_socials sc_socials_size_small  color_icons">
+                                                            <div class="sc_socials_item">
+                                                                <a href="https://twitter.com/mytransporter1" target="_blank" class="social_icons social_twitter icons">
+                                                                    <span class="icon-twitter"></span>
+                                                                    <span class="sc_socials_hover icon-twitter"></span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="sc_socials_item">
+                                                                <a href="https://www.facebook.com/MyTransporterng/" target="_blank" class="social_icons social_facebook icons">
+                                                                    <span class="icon-facebook"></span>
+                                                                    <span class="sc_socials_hover icon-facebook"></span>
+                                                                </a>
+                                                            </div>
+                                                           <a href="https://www.instagram.com/mytransporterng/"> <img src="https://cdn-icons.flaticon.com/png/128/3955/premium/3955027.png?token=exp=1640269045~hmac=3e627a784ec60dcd5f398ad3b3da6327"/></a>
+                                                           
+                                                         
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="" style="margin-top: 30px; ">
+                                                    <div class="col-lg-3">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Solutions</b></h5>
+                                                        <p ><a href="road_delivery.html" style="color: white;">Bike Delivery</a></p> 
+                                                        <p ><a href="road_delivery.html" style="color: white;">Bicycle Delivery</a></p> 
+                                                        <p ><a href="road_delivery.html" style="color: white;">Truck Delivery & Van </a></p> 
+                                                        <p ><a href="drone_delivery.html" style="color: white;">Drones Delivery</a></p> 
+                                                        <p ><a href="flight_pg.html" style="color: white;">Flight Drops</a></p> 
+                                                    </div>
+                                                    <div class="col-lg-2">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Company</b></h5>
+                                                        <p ><a href="about-us.html" style="color: white;">About Us</a></p> 
+                                                        <p ><a href="contacts.html" style="color: white;">Contact Us</a></p> 
+                                                        <p ><a href="partner_form.html" style="color: white;">Partners</a></p>
+                                                        <!-- <p ><a href="" style="color: white;">Terms & Condition</a></p>  -->
+                                                    </div>
+                                                    
+                                                    <div class="col-lg-2">
+                                                        <h5  style="color: white; text-transform: capitalize;"><b>Get the App Now</b></h5>
+                                                        <span class="mobileHide">
+                                                        <a href="https://play.google.com/store/apps/details?id=com.mytransporter.customermobile"><img src="./images/playstore1.png" /></a>
+                                                        <a href="https://apps.apple.com/app/id1588317914"><img src="./images/appstore.png" /></a>
+                                                        </span>
+                                                        <span class="mobileShow">
+                                                            <a href="https://play.google.com/store/apps/details?id=com.mytransporter.customermobile"><img src="./images/playstore1.png" width="45%"/></a>
+                                                            <a href="https://apps.apple.com/app/id1588317914"><img src="./images/appstore.png" width="45%"/></a>
+                                                            </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>   
+
+        </div>        
+
+        <section class="copyright_wrap fullwidth_section" style="background-color: #342c3b;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="container">
+                            <p>MyTransporter © 2021 All Rights Reserved. 
+                               
+                                <a href="privacy_policy.html">Privacy Policy</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+            
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="js/vendor/bootstrap.min.js"></script>
+
+    <!--<script type="text/javascript" src="custom_tools/js/front.customizer.js"></script>
+    <script type="text/javascript" src="custom_tools/js/skin.customizer.js"></script>-->
+    
+    <script type="text/javascript" src="js/_packed.js"></script>
+    <script type="text/javascript" src="js/shortcodes.min.js"></script>
+    <script type="text/javascript" src="js/_main.js"></script>
+
+    
+</body>
+</html>
